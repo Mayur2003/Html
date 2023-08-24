@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    function ms()
+    {
+        var mk = document.getElementById("nn").value;
+        var jk = document.getElementById('nm').value;
+        var kl = document.getElementById('no').value;
+        var io = document.getElementById('np').value;
+        var op = document.getElementById('nq').value;
+        
+        
+        
+
+
+		if (mk=="") 
+		{
+			alert("Please Enter Your Name");
+			return false;	
+		}
+        else if(/^[A-z]+$/.test(mk)==false)
+        {
+            alert('Please Enter Only Alphabets');
+            return false;
+        }
+
+        else if(jk=="")
+        {
+            alert("Please Enter Your Mobile No");
+            return false;
+        }
+        
+        else if(kl=="")
+        {
+            alert("Please Enter Your Mail Address");
+            return false;
+        }
+        else if(/^[A-z0-9._@]+$/.test(kl)==false)
+    	{
+    		alert("Please Enter Your Correct E-Mail Address");
+    		return false;
+    	}
+        else if(io=="")
+        {
+            alert("Please Enter Your Reserved Number");
+            return false;
+        }
+        else if(op=="")
+        {
+            alert("Please Enter Your Address");
+            return false;
+        }
+    }
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="food.css">
+</head>
+<body>
+
+
+     <!-- header and home section -->
+
+
+    <h1>Gajni Codders</h1>
+    <nav>
+        <ul>
+            <a href="">Home</li></a>
+            <a href="#mk">Menu</li></a>
+            <a href="#about">About Us </li></a>
+            <a href="#book">Book Table </li></a>
+            <a href="">Contact US </li></a>
+
+        </ul>
+    </nav>
+
+    <section>
+        <div class="main">
+            <div class="maintext">
+                <h4>Get Fresh <span>Food</span><br>in a Easy way</h4>
+
+            </div>
+
+        <div class="main-image">
+            <img src="vb.webp">
+        </div>
+
+        
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora at beatae vitae, inventore omnis suscipit quia, 
+                praesentium temporibus ex delectus quod, voluptates necessitatibus qui dignissimos deleniti aut sequi nobis. Soluta!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa harum voluptatem cumque ipsum! Voluptas non placeat tempore alias, quos necessitatibus amet magni veniam, architecto neque a aspernatur? Velit, reiciendis deserunt.
+        </p>  -->
+</section>
+
+        </div>
+    <!-- <div class="hem">
+        <h2>Mayur Ajugia</h2>
+        <h2>Web Developer</h2>
+        <h2>Mansi</h2>
+        <h2>Web Developer</h2>
+        <h2>Hardik</h2>
+        <h2>Web Developer</h2>
+        <h2>Akshay</h2>
+        <h2>Web Developer</h2>
+        <br><br><br><br><br><br>
+
+    </div> -->
+
+
+        <!-- menu section -->
+
+
+    <section class="items" id="mk">
+       
+        <div class="item">
+            <img src="mk.jpg" width="500">
+            <h4>Tanduri Pizza</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="pizza2.jpg" width="500">
+            <h4>Vej Onion Pizza</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="burger1.jpg" width="500">
+            <h4>Tanduri Burger</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="burger2.jfif" width="500">
+            <h4>Aloo Tikki Burger</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="pasta1.jfif" width="500">
+            <h4>Hot And Spicy Pasta</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="pasta2.jpg" width="500">
+            <h4>Macroni Pasta</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="coffe.jpg" width="500">
+            <h4>Hot Coffe</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="juice.jfif" width="500">
+            <h4>Fruit Juice</h4>
+            <button>Order</button>
+        </div>
+        <div class="item">
+            <img src="vada.jfif" width="500">
+            <h4>Vadapau</h4>
+            <button>Order</button>
+        </div>
+
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about_main">
+            <div class="about_image">
+                <img src="s1.jfif">
+            </div>
+            <div class="about_text">
+                <h3><span>About</span> Us</h3>
+                <h4>Why Choose Us ?</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa harum quaerat labore, reprehenderit reiciendis et nostrum odio
+                     excepturi commodi alias laboriosam dolores modi minus omnis odit numquam debitis eum illum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nisi, repellat a consectetur sed quos eius quae, accusantium harum dolores non laboriosam amet, ex earum quas dicta officiis quaerat reiciendis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid maxime, eligendi impedit velit illo deleniti, ipsa odit molestias fugit possimus tempore vitae vel corporis sapiente nam? Possimus perspiciatis laboriosam alias!
+                </p> <br> <br> <br>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+        <div class="table">
+            
+           <h3>Book A Table</h3> <br> <br>
+        <form action="">
+            <table border=""> 
+                
+                <tr>
+                    <th>Name :- </th>
+                    <th><input type="text" name="nn" id="nn" placeholder="Name"></th>
+                </tr>
+                <tr>
+                    <th>Mobile No :- </th>
+                    <th><input type="number" name="nm" id="nm" placeholder="Mobile No "></th>
+                </tr>
+                <tr>
+                    <th>E-mail :- </th>
+                    <th><input type="email" name="no" id="no" placeholder="E-mail"></th>
+                </tr>
+                <tr>
+                    <th>Reserved No :- </th>
+                    <th><input type="number" name="np" id="np" placeholder="Reserved No"></th>
+                </tr>
+                <tr>
+                    <th>Address :- </th>
+                    <th><input type="text" name="nq" id="nq" placeholder="Address"></th>
+                </tr>
+                <tr>
+                    
+
+                    <th colspan="2"><input type="button" name="" class="jk" id="" value="submit" onclick="ms(this.form)"></th>
+                </tr>
+
+            </table> 
+        </form>
+
+        </div>
+
+    </section>
+</body>
+</html>

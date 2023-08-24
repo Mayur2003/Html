@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 100;
+}
+
+.main .maintext{
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+.main .maintext h4 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+
+.main .main_image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+}
+
+/* .section .p{
+
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    right: 130px;
+    bottom: 120px;
+    line-height: 22px;
+    margin-left: 600px;
+}  */
+
+h1{
+    text-align: center;
+    color: #fac031;
+    padding: 20px;
+    font-family: mv boli;
+}
+
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+
+nav ul a:hover{
+    background-color: green;
+    color: aliceblue;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.item img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+
+.item button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.item button:hover{
+    transform: scale(1.08);
+}
+
+/* @media screen and (max-width: 1000px;) {
+    .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px;) {
+    .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+} */
+
+/* About Page Css */
+
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.about_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_main .about_image img{
+    width: 800px;
+    position: relative;
+    top: 60px;
+}
+
+.about .about_main .about_text h3 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+    
+}
+
+.about .about_main .about_text h3
+{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+
+.about .about_main .about_text h4{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 32px;  
+}
+
+.book .table form table{
+    text-align: center;
+    font-size: 30px;
+    right: 500px;
+    margin-left: 35%;
+
+}
+
+.book .table h3{
+    color: hsl(352, 95%, 59%);
+    font-size: 50px;
+    font-family: mn boli;
+    text-align: center;
+}
+
+.book .table table input{
+    height: 50px;
+    width: 150px;
+}
+.book .table table{
+    color: #fac031;
+}
+ 
+.jk{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
