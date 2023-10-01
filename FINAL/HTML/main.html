@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+  
+    .bannerimg{
+        background: url(../IMAGES/BANNER.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .mkflex{
+        display: flex;
+        padding: 20px 45px;
+        align-items: center;
+        justify-content: space-between;
+        background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9999999999999999) 85%, rgba(0,0,0,0.9999999999999999) 100%);
+    }
+
+    .logo>img{
+        height: 65px;
+    }
+    .navl{
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        margin-right: 45px;
+        display: flex;
+    }
+
+    .navl>a{
+        justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+        font-weight: 900;
+        font-size: 25px;
+        text-decoration: none;
+
+    }
+
+    .content{
+        color: aliceblue;
+        margin: 30px 45px;
+        width: 36%;
+        justify-content:space-evenly;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+
+        
+        
+    }
+    .content>a{
+        font-size: 20px;
+        padding: 10px 30px;
+        
+        border-radius: 79px;
+        color: aliceblue;
+        font-weight: 600;
+        background-color: rgb(234,58,58 );
+    }
+
+    .content>h1{
+        font-size: 70px;   
+     }
+     .content>p{
+        font-size: 27px;
+        text-align: justify;
+     }
+
+    
+
+</style>
+<body>
+    <header>
+
+        <div class="bannerimg">
+
+            <nav class="mkflex">
+                <div class="logo">
+                    <img src="../IMAGES/Logo.png" alt="">
+                </div>
+                <div class="navl">
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">Promo</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+
+                </div>
+
+            </nav>
+
+            <div class="content">
+                <h1>Get CashBack Up To 50%</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste distinctio esse fugiat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro alias placeat voluptatem?
+                </p>
+                <a href="">ORDER NOW</a>
+            </div>
+
+        
+        </div>
+    </header>
+    
+</body>
+</html>
